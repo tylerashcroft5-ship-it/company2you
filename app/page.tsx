@@ -6,6 +6,7 @@ import WhoWeHelp from "@/components/WhoWeHelp";
 import Pricing from "@/components/Pricing";
 import About from "@/components/About";
 import BookingForm from "@/components/BookingForm";
+import Downloads from "@/components/Downloads";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Pricing />
         <About />
         <BookingForm />
+        <Downloads />
       </main>
       <Footer />
     </>
