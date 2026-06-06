@@ -5,7 +5,7 @@ const cards = [
     title: "Friendly Company at Home",
     description:
       "Whether it's a cup of tea, sharing stories, or enjoying a favourite programme — we're simply there to be good company. No one should sit at home alone.",
-    image: "/hero-companion.jpg",
+    image: "/friendly-company.jpg",
     alt: "Elderly man enjoying time with a companion over tea",
     cta: "Book a Visit",
     href: "#contact",

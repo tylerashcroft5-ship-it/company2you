@@ -148,19 +148,19 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 px-5 bg-white">
+    <section id="services" className="py-24 px-5 bg-[#F47920]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-[#F47920] text-xs font-bold tracking-[0.15em] uppercase mb-3">
+          <p className="text-white/80 text-xs font-bold tracking-[0.15em] uppercase mb-3">
             What We Offer
           </p>
           <h2
-            className="text-3xl sm:text-4xl font-bold text-[#1B3878] mb-4"
+            className="text-3xl sm:text-4xl font-bold text-white mb-4"
             style={{ fontFamily: "var(--font-playfair), serif" }}
           >
             Our Companionship Services
           </h2>
-          <p className="text-gray-500 max-w-lg mx-auto leading-relaxed">
+          <p className="text-orange-50 max-w-lg mx-auto leading-relaxed">
             Every visit is tailored to the individual. We offer a range of
             services designed to bring comfort, connection, and joy to
             everyday life.
@@ -171,7 +171,7 @@ export default function Services() {
           {services.map((s, i) => (
             <div
               key={i}
-              className="group bg-[#FBF8F3] hover:bg-[#1B3878] rounded-2xl p-7 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 cursor-default"
+              className="group bg-white hover:bg-[#1B3878] rounded-2xl p-7 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 cursor-default"
             >
               <div className="w-12 h-12 bg-[#1B3878]/8 group-hover:bg-white/15 rounded-xl flex items-center justify-center mb-5 transition-colors text-[#1B3878] group-hover:text-white">
                 {s.icon}
@@ -189,7 +189,7 @@ export default function Services() {
           ))}
 
           {/* CTA card */}
-          <div className="bg-[#F47920] rounded-2xl p-7 flex flex-col justify-between min-h-[200px]">
+          <div className="bg-[#1B3878] rounded-2xl p-7 flex flex-col justify-between min-h-[200px]">
             <div>
               <p
                 className="text-white text-xl font-bold mb-2 leading-snug"
@@ -197,14 +197,14 @@ export default function Services() {
               >
                 Not sure which service is right?
               </p>
-              <p className="text-orange-100 text-sm leading-relaxed">
+              <p className="text-blue-200 text-sm leading-relaxed">
                 Get in touch — we&apos;ll listen and find the perfect
                 plan for your loved one.
               </p>
             </div>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 bg-white text-[#F47920] font-semibold text-sm px-5 py-2.5 rounded-full hover:shadow-lg transition-all hover:-translate-y-px w-fit mt-6"
+              className="inline-flex items-center gap-2 bg-[#F47920] text-white font-semibold text-sm px-5 py-2.5 rounded-full hover:shadow-lg transition-all hover:-translate-y-px w-fit mt-6"
             >
               Get in Touch
               <svg
