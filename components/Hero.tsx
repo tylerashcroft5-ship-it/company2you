@@ -35,7 +35,8 @@ export default function Hero() {
             >
               <span className="text-[#F47920] italic">Enhancing Well-being<br />Through</span>
               <br />
-              Meaningful<br />Companionship
+              Meaningful Companionship<br />
+              <span className="text-[#F47920] italic">That Feels Like Family</span>
             </h1>
 
             {/* Body copy */}

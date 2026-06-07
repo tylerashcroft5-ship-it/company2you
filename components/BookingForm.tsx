@@ -82,7 +82,7 @@ export default function BookingForm() {
             </h2>
             <p className="text-blue-200 leading-relaxed mb-10">
               There&apos;s no pressure and no commitment — just a warm, friendly
-              conversation. Fill in the form and Nicola will personally be in
+              conversation. Fill in the form and one of our team will be in
               touch within 24 hours. Whoever you&apos;re reaching out for, you&apos;ll
               always be met with kindness.
             </p>
@@ -120,7 +120,7 @@ export default function BookingForm() {
                 },
                 {
                   label: "Location",
-                  value: "West Lancashire &amp; surrounding areas",
+                  value: "St Helens, West Lancashire & surrounding areas",
                   href: null,
                   icon: (
                     <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
@@ -219,7 +219,7 @@ export default function BookingForm() {
                   Enquiry Sent!
                 </h3>
                 <p className="text-gray-500 text-sm leading-relaxed max-w-xs mx-auto">
-                  Thank you for reaching out. Nicola will be in touch within 24
+                  Thank you for reaching out. One of our team will be in touch within 24
                   hours to discuss your needs.
                 </p>
               </div>

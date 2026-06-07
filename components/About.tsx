@@ -29,15 +29,11 @@ export default function About() {
                 fill
                 className="object-cover object-top"
               />
-              {/* Gradient overlay at bottom for name */}
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#1B3878]/90 via-[#1B3878]/30 to-transparent pt-12 pb-4 px-4">
-                <span className="inline-block bg-[#F47920] text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wide mb-1.5">
-                  Founder &amp; Lead Companion
+              {/* Corner badge */}
+              <div className="absolute bottom-3 left-3">
+                <span className="inline-block bg-[#F47920] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide shadow-lg">
+                  Founder
                 </span>
-                <p className="text-white font-bold text-base leading-tight" style={{ fontFamily: "var(--font-playfair), serif" }}>
-                  Nicola Wilson
-                </p>
-                <p className="text-blue-200 text-xs">Company2You</p>
               </div>
             </div>
           </div>
