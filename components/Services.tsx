@@ -2,7 +2,7 @@ const services = [
   {
     title: "Friendly Visits",
     description:
-      "Regular in-home visits providing warm company, a listening ear, and genuine connection that brightens every single day.",
+      "Regular visits filled with warm company, a listening ear, and genuine connection — the kind that quietly brightens every single day.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path
@@ -18,7 +18,7 @@ const services = [
   {
     title: "Conversation & Activities",
     description:
-      "Shared hobbies, games, reading, puzzles, or simply great conversation — tailored to the individual&apos;s interests and pace.",
+      "Shared hobbies, games, reading, puzzles, or simply a lovely chat — always at their own pace, around the things they love most.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="1.75" />
@@ -86,7 +86,7 @@ const services = [
   {
     title: "Appointment Companionship",
     description:
-      "Accompanying clients to medical appointments, hospital visits, or outings — so no one ever has to face them alone.",
+      "A reassuring, friendly face at medical appointments, hospital visits, or outings — so no one ever has to face them alone.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <rect
@@ -116,7 +116,7 @@ const services = [
   {
     title: "Respite Support for Families",
     description:
-      "Giving family carers a well-deserved break, with the reassurance their loved one is in safe, caring and capable hands.",
+      "Giving family carers a well-deserved breather, with the comfort of knowing their loved one is in safe, kind and caring hands.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path
@@ -161,9 +161,9 @@ export default function Services() {
             Our Companionship Services
           </h2>
           <p className="text-orange-50 max-w-lg mx-auto leading-relaxed">
-            Every visit is tailored to the individual. We offer a range of
-            services designed to bring comfort, connection, and joy to
-            everyday life.
+            Every visit is shaped gently around the person — never rushed, always
+            personal. Each one is here to bring a little more comfort,
+            connection, and joy to the day.
           </p>
         </div>
 

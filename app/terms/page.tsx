@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions | Company2You",
-  description: "Terms and Conditions for Company2You Companionship & Befriending Service, Rainford & West Lancashire.",
+  description: "Terms and Conditions for Company2You Companionship & Befriending Service, West Lancashire and surrounding areas.",
 };
 
 const terms = [

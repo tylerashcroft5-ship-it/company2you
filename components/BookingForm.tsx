@@ -81,9 +81,10 @@ export default function BookingForm() {
               Ready to Make a Difference to Someone&apos;s Day?
             </h2>
             <p className="text-blue-200 leading-relaxed mb-10">
-              Fill in the form and Nicola will be in touch within 24 hours to
-              discuss your needs and find the perfect care plan for you or your
-              loved one.
+              There&apos;s no pressure and no commitment — just a warm, friendly
+              conversation. Fill in the form and Nicola will personally be in
+              touch within 24 hours. Whoever you&apos;re reaching out for, you&apos;ll
+              always be met with kindness.
             </p>
 
             <div className="space-y-5 mb-10">
@@ -119,7 +120,7 @@ export default function BookingForm() {
                 },
                 {
                   label: "Location",
-                  value: "Rainford & West Lancashire",
+                  value: "West Lancashire &amp; surrounding areas",
                   href: null,
                   icon: (
                     <svg width="17" height="17" viewBox="0 0 24 24" fill="none">

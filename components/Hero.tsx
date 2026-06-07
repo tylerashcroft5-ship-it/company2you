@@ -15,36 +15,51 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-5 py-24 sm:py-20 w-full">
+      <div className="relative max-w-6xl mx-auto px-5 py-20 sm:py-24 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
           {/* Left: text */}
-          <div className="max-w-[620px]">
+          <div>
             {/* Badge */}
-            <div className="inline-flex items-center gap-2.5 mb-7 bg-[#1B3878]/8 border border-[#1B3878]/12 px-4 py-2.5 rounded-full">
+            <div className="inline-flex items-center gap-2.5 mb-6 bg-[#1B3878]/8 border border-[#1B3878]/12 px-4 py-2.5 rounded-full">
               <span className="w-2 h-2 rounded-full bg-[#F47920] flex-shrink-0 animate-pulse" />
               <span className="text-[#1B3878] text-sm font-semibold">
-                DBS Checked &middot; Rainford &amp; West Lancashire
+                DBS Checked &middot; West Lancs, St Helens, Rainford &amp; Surrounding Areas
               </span>
             </div>
 
             {/* Heading */}
             <h1
-              className="text-5xl sm:text-6xl lg:text-[68px] font-bold leading-[1.07] mb-7 text-[#1C1C2E]"
+              className="text-4xl sm:text-5xl lg:text-[58px] font-bold leading-[1.08] mb-6 text-[#1C1C2E]"
               style={{ fontFamily: "var(--font-playfair), serif" }}
             >
-              Companionship
+              <span className="text-[#F47920] italic">Enhancing Well-being<br />Through</span>
               <br />
-              That Feels
-              <br />
-              <span className="text-[#F47920] italic">Like Family</span>
+              Meaningful<br />Companionship
             </h1>
 
-            <p className="text-lg sm:text-xl text-gray-500 leading-relaxed mb-10 max-w-[520px]">
-              Warm, trusted companionship visits for older adults across Rainford
-              &amp; West Lancashire. We bring connection, comfort, and joy —
-              right to your door.
-            </p>
+            {/* Body copy */}
+            <div className="space-y-4 text-gray-500 leading-relaxed text-base sm:text-lg mb-8">
+              <p>
+                Welcome to our befriending and companionship service for older adults.
+              </p>
+              <p>
+                Our service is tailored for adults living alone, adults with disabilities
+                or long-term illnesses, and adults with poor mental health who require
+                wellbeing support.
+              </p>
+              <p>
+                Our aim is to reduce loneliness through meaningful companionship, social
+                connection, and supportive human connection within their own homes.
+              </p>
+              <p className="text-sm text-gray-400 leading-relaxed">
+                Many older adults spend days — sometimes even weeks — without having
+                someone to talk to, share a smile with, or simply feel that someone cares.
+                No one should feel forgotten or alone, especially after spending a lifetime
+                caring for others, raising families, working hard, and contributing to the
+                world around them.
+              </p>
+            </div>
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -66,7 +81,7 @@ export default function Hero() {
             </div>
 
             {/* Stats bar */}
-            <div className="mt-12 pt-8 border-t border-gray-200/70 grid grid-cols-2 sm:grid-cols-4 gap-6">
+            <div className="mt-10 pt-8 border-t border-gray-200/70 grid grid-cols-2 sm:grid-cols-4 gap-5">
               {[
                 { value: "£23/hr", label: "From per hour" },
                 { value: "7", label: "Services available" },
@@ -109,8 +124,6 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-
-            {/* Floating decoration */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#F47920]/10 rounded-full blur-xl" />
             <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-[#1B3878]/8 rounded-full blur-xl" />
           </div>

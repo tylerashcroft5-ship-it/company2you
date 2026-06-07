@@ -58,6 +58,33 @@ export default function Pricing() {
               </p>
             </div>
 
+            {/* Discounts */}
+            <div className="px-10 py-6 border-b border-white/10">
+              <p className="text-white font-semibold mb-4 text-xs uppercase tracking-wider">
+                Loyalty discounts:
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="bg-[#F47920]/15 border border-[#F47920]/30 rounded-xl px-4 py-3.5 flex items-start gap-3">
+                  <div className="w-9 h-9 rounded-lg bg-[#F47920] flex items-center justify-center flex-shrink-0">
+                    <span className="text-white text-xs font-bold">5%</span>
+                  </div>
+                  <div>
+                    <p className="text-white font-semibold text-sm">Monthly Booking</p>
+                    <p className="text-blue-200 text-xs mt-0.5">5% off when you book a regular monthly schedule</p>
+                  </div>
+                </div>
+                <div className="bg-[#F47920]/20 border border-[#F47920]/40 rounded-xl px-4 py-3.5 flex items-start gap-3">
+                  <div className="w-9 h-9 rounded-lg bg-[#F47920] flex items-center justify-center flex-shrink-0">
+                    <span className="text-white text-xs font-bold">10%</span>
+                  </div>
+                  <div>
+                    <p className="text-white font-semibold text-sm">3-Month Booking</p>
+                    <p className="text-blue-200 text-xs mt-0.5">10% off when you commit to a 3-month schedule</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Included list */}
             <div className="px-10 py-8">
               <p className="text-white font-semibold mb-6 text-xs uppercase tracking-wider">

@@ -103,7 +103,7 @@ export default function Footer() {
                     <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="currentColor" strokeWidth="1.75" fill="none"/>
                     <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" strokeWidth="1.75" fill="none"/>
                   </svg>
-                  Rainford &amp; West Lancashire
+                  West Lancashire &amp; Surrounding Areas
                 </div>
               </li>
             </ul>

@@ -54,7 +54,7 @@ export default function GalleryCards() {
             What a Visit Looks Like
           </h2>
           <p className="text-gray-500 max-w-lg mx-auto leading-relaxed">
-            Every visit is warm, personal, and shaped around the individual.
+            Every visit is warm, personal, and shaped gently around the person.
             Here&apos;s a glimpse of the moments we create together.
           </p>
         </div>

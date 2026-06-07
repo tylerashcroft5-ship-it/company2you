@@ -2,7 +2,7 @@ const values = [
   {
     title: "Compassion",
     description:
-      "We care with genuine kindness and deep respect — treating every person we visit with the warmth and dignity they deserve.",
+      "We care with genuine kindness and deep respect — treating every person we visit like family, with all the warmth and dignity they deserve.",
     highlight: true,
     icon: (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
@@ -37,7 +37,7 @@ const values = [
   {
     title: "Trust",
     description:
-      "Reliable, dependable and always there. Every companion is DBS checked and thoroughly vetted for your complete peace of mind.",
+      "Gentle, dependable and always there. Every companion is DBS checked and lovingly chosen, so you can feel completely at ease.",
     highlight: false,
     icon: (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
@@ -75,8 +75,8 @@ export default function Values() {
             Built on Three Values
           </h2>
           <p className="text-blue-200 max-w-md mx-auto leading-relaxed">
-            Everything we do comes from the heart. Here&apos;s what you can always
-            count on from Company2You.
+            Everything we do comes from the heart. These are the promises you can
+            always count on — for you, and for the people you love.
           </p>
         </div>
 

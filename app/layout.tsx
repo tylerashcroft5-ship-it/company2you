@@ -15,9 +15,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Company2You | Companionship & Befriending Service | Rainford & West Lancashire",
+  title: "Company2You | Companionship & Befriending Service | West Lancs, St Helens, Rainford & Surrounding Areas",
   description:
-    "Warm, trusted companionship visits for older adults across Rainford & West Lancashire. DBS checked companions offering friendly visits, accompanied walks, shopping assistance and more. From £23/hr.",
+    "Warm, trusted companionship visits for older adults across West Lancs, St Helens, Rainford & Surrounding Areas. DBS checked companions offering friendly visits, accompanied walks, shopping assistance and more. From £23/hr.",
   keywords:
     "companionship service West Lancashire, befriending service Rainford, elderly companion, older adult support, friendly visits, DBS checked, Nicola Wilson",
 };

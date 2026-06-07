@@ -18,7 +18,7 @@ const audience = [
   {
     title: "Those with Disabilities or Long-Term Conditions",
     description:
-      "Individuals managing physical or health challenges who deserve support, companionship, and care that respects their independence.",
+      "Anyone living with physical or health challenges who deserves kind support, real companionship, and care that always respects their independence.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
         <path
@@ -38,7 +38,7 @@ const audience = [
   {
     title: "Mental Health & Emotional Wellbeing",
     description:
-      "Older adults experiencing loneliness, low mood, or anxiety who would benefit from regular, meaningful social interaction.",
+      "Anyone feeling lonely, low, or anxious who would treasure regular, meaningful company and a caring person to talk to.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
         <path
@@ -53,7 +53,7 @@ const audience = [
   {
     title: "Families Seeking Respite",
     description:
-      "Dedicated family carers who need a trusted, caring pair of hands to step in — so they can rest, recover, and recharge.",
+      "Devoted family carers who deserve a trusted, caring pair of hands to step in — so they can rest, recover, and look after themselves too.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
         <path
@@ -144,7 +144,7 @@ export default function WhoWeHelp() {
             </p>
             <p className="text-blue-200 leading-relaxed mb-10 relative text-sm">
               Companionship that brings comfort, joy, and peace of mind —
-              right to your door, across Rainford and West Lancashire.
+              right to your door.
             </p>
 
             <div className="grid grid-cols-2 gap-3 relative">
@@ -152,7 +152,7 @@ export default function WhoWeHelp() {
                 { label: "In-Home Service", icon: "⌂" },
                 { label: "Fully Insured", icon: "✓" },
                 { label: "DBS Checked", icon: "✓" },
-                { label: "West Lancashire", icon: "⊙" },
+                { label: "Min. 2hr Visits", icon: "⏱" },
               ].map((b) => (
                 <div
                   key={b.label}
