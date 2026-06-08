@@ -26,7 +26,7 @@ const terms = [
   {
     number: "4",
     title: "Cancellation Policy",
-    content: "We require at least 24 hours' notice for any scheduled visit. Cancellations made with less than 24 hours' notice may be subject to a cancellation fee.",
+    content: "We require at least 24 hours' notice for any scheduled visit. Cancellations made with less than 24 hours' notice may be subject to a cancellation fee. Less than 48 hours' notice = 50% charge. Less than 24 hours' notice = full payment.",
   },
   {
     number: "5",
@@ -56,7 +56,7 @@ const terms = [
   {
     number: "10",
     title: "Agreement",
-    content: "By engaging Company2You services, you agree to these Terms and Conditions. A signed copy of these terms will be provided as part of your onboarding documentation.",
+    content: "By engaging Company2You services, you agree to these Terms and Conditions. You understand the nature of the services provided, you agree to the booking, payment, and cancellation policies, and you acknowledge that these services are non-medical and non-domestic in nature. A signed copy of these terms will be provided as part of your onboarding documentation.",
   },
 ];
 

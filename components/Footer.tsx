@@ -14,8 +14,8 @@ export default function Footer() {
               <Image
                 src="/logo.png"
                 alt="Company2You"
-                width={150}
-                height={40}
+                width={380}
+                height={72}
                 className="h-9 w-auto object-contain"
               />
             </div>

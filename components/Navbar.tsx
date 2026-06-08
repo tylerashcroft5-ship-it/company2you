@@ -32,8 +32,8 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="Company2You"
-            width={160}
-            height={42}
+            width={380}
+            height={72}
             className="h-10 w-auto object-contain"
             priority
           />

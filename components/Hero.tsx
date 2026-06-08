@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative bg-[#FBF8F3] min-h-screen flex items-center overflow-hidden pt-20">
+    <section className="relative bg-[#FBF8F3] lg:min-h-screen flex items-start lg:items-center overflow-hidden pt-20">
       {/* Decorative background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div
@@ -15,7 +15,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-5 py-20 sm:py-24 w-full">
+      <div className="relative max-w-6xl mx-auto px-5 pt-4 pb-16 sm:pt-6 sm:pb-20 lg:py-24 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
           {/* Left: text */}
