@@ -38,8 +38,7 @@ export default function Downloads() {
             Downloads &amp; Forms
           </h2>
           <p className="text-gray-500 max-w-md mx-auto leading-relaxed">
-            Everything you need to get started with Company2You. Download,
-            complete, and return to our team before your first visit.
+            Everything you need to get started with Company2You.
           </p>
         </div>
 

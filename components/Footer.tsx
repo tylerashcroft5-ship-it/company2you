@@ -106,6 +106,14 @@ export default function Footer() {
                   West Lancashire &amp; Surrounding Areas
                 </div>
               </li>
+              <li>
+                <a href="https://www.facebook.com/share/1BRHGc742C/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 text-blue-200/60 text-sm hover:text-[#F47920] transition-colors">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="flex-shrink-0">
+                    <path d="M22 12a10 10 0 10-11.563 9.875v-6.987H7.898V12h2.539V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.888h-2.33v6.987A10.002 10.002 0 0022 12z"/>
+                  </svg>
+                  Follow us on Facebook
+                </a>
+              </li>
             </ul>
           </div>
         </div>
