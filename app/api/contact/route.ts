@@ -23,7 +23,7 @@ export async function POST(request: Request) {
 
     const resend = new Resend(process.env.RESEND_API_KEY);
 
-    await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from: "Company2You Website <onboarding@resend.dev>",
       to: ["Company2You.uk@gmail.com"],
       reply_to: email,
@@ -35,7 +35,7 @@ export async function POST(request: Request) {
               New Enquiry — Company2You
             </h1>
             <p style="color: rgba(255,255,255,0.6); margin: 6px 0 0; font-size: 13px;">
-              Received from company2you.co.uk
+              Received from company2you.vercel.app
             </p>
           </div>
 
@@ -82,13 +82,22 @@ export async function POST(request: Request) {
             }
 
             <div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid #e5e7eb; text-align: center; color: #9ca3af; font-size: 12px;">
-              Sent from Company2You website &mdash; company2you.co.uk
+              Sent from Company2You website
             </div>
           </div>
         </div>
       `,
     });
 
+    if (error) {
+      console.error("Resend error:", JSON.stringify(error));
+      return NextResponse.json(
+        { error: "Failed to send your enquiry. Please try again." },
+        { status: 500 }
+      );
+    }
+
+    console.log("Email sent successfully:", data?.id);
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Email send error:", error);
