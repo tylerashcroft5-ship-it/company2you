@@ -41,7 +41,7 @@ const cards = [
 
 export default function GalleryCards() {
   return (
-    <section className="py-24 px-5 bg-[#FBF8F3]">
+    <section className="pt-24 pb-12 px-5 bg-[#FBF8F3]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-[#F47920] text-xs font-bold tracking-[0.15em] uppercase mb-3">

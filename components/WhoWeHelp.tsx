@@ -70,7 +70,7 @@ const audience = [
 
 export default function WhoWeHelp() {
   return (
-    <section className="py-24 px-5 bg-[#FBF8F3]">
+    <section className="pt-12 pb-24 px-5 bg-[#FBF8F3]">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left */}

@@ -135,7 +135,7 @@ export default function TermsPage() {
         {/* Contact */}
         <div className="mt-12 bg-[#F47920]/8 border border-[#F47920]/20 rounded-2xl px-8 py-7 text-center">
           <p className="text-[#1B3878] font-semibold mb-2">Questions about our terms?</p>
-          <p className="text-gray-500 text-sm mb-4">Get in touch with Nicola directly.</p>
+          <p className="text-gray-500 text-sm mb-4">Get in touch with our team directly.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm">
             <a href="tel:07599955100" className="font-semibold text-[#1B3878] hover:text-[#F47920] transition-colors">
               07599 955100

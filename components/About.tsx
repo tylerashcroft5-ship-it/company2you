@@ -70,7 +70,7 @@ export default function About() {
               href="#contact"
               className="inline-flex items-center gap-2 mt-8 bg-[#1B3878] text-white font-semibold px-7 py-3.5 rounded-full text-sm hover:bg-[#243f8f] transition-all hover:shadow-lg hover:-translate-y-0.5"
             >
-              Get in Touch with Nicola
+              Get in Touch with Our Team
               <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>

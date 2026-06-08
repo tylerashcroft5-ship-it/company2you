@@ -39,7 +39,7 @@ export default function Downloads() {
           </h2>
           <p className="text-gray-500 max-w-md mx-auto leading-relaxed">
             Everything you need to get started with Company2You. Download,
-            complete, and return to Nicola before your first visit.
+            complete, and return to our team before your first visit.
           </p>
         </div>
 
